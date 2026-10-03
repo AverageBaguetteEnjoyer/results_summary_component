@@ -24,8 +24,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-7Db-AS3D5o
+- Live Site URL: https://resultssummarycomp-abe.netlify.app
 
 ## Author
 
