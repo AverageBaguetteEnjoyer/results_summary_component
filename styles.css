@@ -118,6 +118,10 @@ main {
     gap: 2rem;
 }
 
+.result__summary h2 {
+    font-size: 1.5rem;
+}
+
 .result__summary-list {
     list-style: none;
     font-weight: 500;
