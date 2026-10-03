@@ -7,10 +7,10 @@ const populateContent = (data) => {
     const summaryListEl = document.querySelector("[data-summary-list]");
 
     summaryListEl.innerHTML = data.map(entry => {
-        return `<li style="background-color: ${entry.bgColor}">
+        return `<li class="${entry.category.toLowerCase()}">
             <span class="result__summary-name">
                 <img src="${entry.icon}" alt="">
-                <span style="color: ${entry.fontColor}">${entry.category}</span>
+                <span>${entry.category}</span>
             </span>
             <span class="result__summary-score">
                 <strong>${entry.score}</strong>
