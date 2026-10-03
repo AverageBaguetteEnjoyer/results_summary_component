@@ -86,7 +86,7 @@ main {
     justify-content: center;
 }
 
-.result__score-value span:nth-child(1) {
+.result__score-number {
     color: var(--clr-font-secondary);
     font-size: 4.5rem;
     font-weight: 800;
@@ -164,6 +164,26 @@ main {
 
 .result__summary a:is(:hover, :focus-visible) {
     background: var(--bg-link-hover);
+}
+
+.reaction {
+    background: oklch(98.012% 0.00963 16.685);
+    color: oklch(68.218% 0.20632 24.413);
+}
+
+.memory {
+    background: oklch(98.924% 0.01007 81.698);
+    color: oklch(81.667% 0.16553 76.261);
+}
+
+.verbal {
+    background: oklch(98.278% 0.01123 176.89);
+    color: oklch(70.363% 0.14192 168.365);
+}
+
+.visual {
+    background: oklch(96.898% 0.01214 281.001);
+    color: oklch(42.31% 0.256 265.737);
 }
 
 @media (max-width: 48.125rem) {
